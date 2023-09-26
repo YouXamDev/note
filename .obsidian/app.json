@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./files"
+}
