@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
+                "file": "物理笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "物理笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "物理笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md"
+                "file": "物理笔记.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   },
   "active": "e05abb487df16f5b",
   "lastOpenFiles": [
-    "测试.md",
+    "物理笔记.md",
     "你好.md",
     "2023-09-26.md"
   ]
