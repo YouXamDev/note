@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "c2946315cdc339ac",
@@ -86,8 +87,8 @@
               "type": "backlink",
               "state": {
                 "file": "物理笔记.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -133,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,7 +147,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e05abb487df16f5b",
+  "active": "554732a3232ce0e1",
   "lastOpenFiles": [
     "物理笔记.md",
     "你好.md",
