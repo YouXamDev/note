@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e34a0b9052c3f6b4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +158,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "554732a3232ce0e1",
+  "active": "e34a0b9052c3f6b4",
   "lastOpenFiles": [
     "物理笔记.md",
     "你好.md",
