@@ -7,5 +7,7 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./files"
+  "attachmentFolderPath": "./files",
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false
 }
