@@ -1,14 +1,26 @@
 {
   "main": {
-    "id": "cbd7a4691bf71304",
+    "id": "1c37c7c65d99d620",
     "type": "split",
     "children": [
       {
-        "id": "4f934db28454ea9f",
+        "id": "fb22ed74f2f23930",
         "type": "tabs",
         "children": [
           {
-            "id": "a4c97b94ae97b525",
+            "id": "52e9ea75314454d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学业/大二上/离散数学/数论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08c3a43e309a1840",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,16 +32,34 @@
             }
           }
         ]
+      },
+      {
+        "id": "2793c2150e6e9b70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "040bd72a7cdab496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学业/大二上/离散数学/数论.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bf0f907452fb258b",
+    "id": "4d3226c0009cdc77",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "eb67f59fa28b18be",
+        "id": "68a2a41430eaaf23",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +69,7 @@
         }
       },
       {
-        "id": "ceb9cacecfe137a0",
+        "id": "29e635efe1c5a1dd",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +84,7 @@
         }
       },
       {
-        "id": "3c5c5c2baef23afa",
+        "id": "db37d5b898be86d1",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +95,7 @@
         }
       },
       {
-        "id": "e76ccf8868f2c4b8",
+        "id": "e59ba97ff0ab067b",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,16 +106,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "ae9ec9004acf69d5",
+    "id": "54d32f04965646a5",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "6d880b07ae8ad7fe",
+        "id": "878fd904cd6a0348",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "学业/大二上/离散数学/群论.md",
+            "file": "学业/大二上/离散数学/数论.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,29 +127,29 @@
         }
       },
       {
-        "id": "fde776354f44e8d0",
+        "id": "70a53af3004e37e0",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "学业/大二上/离散数学/群论.md",
+            "file": "学业/大二上/离散数学/数论.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "20e65c71c409591a",
+        "id": "c62e417ee0b1c5db",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "学业/大二上/离散数学/群论.md"
+            "file": "学业/大二上/离散数学/数论.md"
           }
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,25 +159,23 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a4c97b94ae97b525",
+  "active": "040bd72a7cdab496",
   "lastOpenFiles": [
-    "学业/大二上/离散数学/数论.md",
-    "未命名.canvas",
-    "未命名 2.canvas",
-    "未命名 1.canvas",
-    "2023-11-08.md",
     "学业/大二上/离散数学/群论.md",
+    "Excalidraw/Drawing 2023-11-09 00.34.07.excalidraw.md",
+    "学业/大二上/离散数学/数论.md",
+    "Excalidraw",
     "学业/大二上/离散数学/files/Pasted image 20231108162006.png",
-    "学业/大二上/离散数学/files",
-    "学业/大二上/大学物理/物理笔记.md",
-    "学业/大二上/离散数学",
-    "/学业/大二上/离散数学/数论.md",
-    "/学业/大二上/离散数学",
+    "学业",
     "学业/大二上/大学物理",
     "学业/大二上",
-    "学业"
+    "学业/大二上/大学物理/物理笔记.md",
+    "学业/大二上/离散数学/files/Pasted image 20231108200134.png",
+    "学业/大二上/离散数学/files",
+    "学业/大二上/离散数学"
   ]
 }
