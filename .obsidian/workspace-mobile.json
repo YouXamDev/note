@@ -115,7 +115,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "学业/大二上/离散数学/数论.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +131,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "学业/大二上/离散数学/数论.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -144,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "学业/大二上/离散数学/数论.md"
+            "file": "Drawing 2023-11-09 00.57.59.excalidraw.md"
           }
         }
       }
@@ -163,11 +161,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "040bd72a7cdab496",
+  "active": "68a2a41430eaaf23",
   "lastOpenFiles": [
+    "学业/大二上/离散数学/数论.md",
+    "Drawing 2023-11-09 00.57.59.excalidraw.md",
     "学业/大二上/离散数学/群论.md",
     "Excalidraw/Drawing 2023-11-09 00.34.07.excalidraw.md",
-    "学业/大二上/离散数学/数论.md",
     "Excalidraw",
     "学业/大二上/离散数学/files/Pasted image 20231108162006.png",
     "学业",
