@@ -87,7 +87,7 @@
               "state": {
                 "file": "学业/大二上/离散数学/群论.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,14 +147,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e05abb487df16f5b",
+  "active": "2cc139ed25a8b779",
   "lastOpenFiles": [
     "学业/大二上/离散数学/数论.md",
-    "学业/大二上/离散数学/群论.md",
+    "学业/大二上/大学物理/物理笔记.md",
     "学业/大二上/离散数学/files/Pasted image 20231108200134.png",
     "学业/大二上/离散数学/files/Pasted image 20231108162006.png",
+    "学业/大二上/离散数学/群论.md",
     "学业/大二上/离散数学/files",
-    "学业/大二上/大学物理/物理笔记.md",
     "学业/大二上/离散数学",
     "学业/大二上/大学物理",
     "学业/大二上",
