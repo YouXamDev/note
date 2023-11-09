@@ -1,26 +1,14 @@
 {
   "main": {
-    "id": "1c37c7c65d99d620",
+    "id": "cbd7a4691bf71304",
     "type": "split",
     "children": [
       {
-        "id": "fb22ed74f2f23930",
+        "id": "4f934db28454ea9f",
         "type": "tabs",
         "children": [
           {
-            "id": "52e9ea75314454d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学业/大二上/离散数学/数论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08c3a43e309a1840",
+            "id": "a4c97b94ae97b525",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,36 +18,43 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "2793c2150e6e9b70",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "040bd72a7cdab496",
+            "id": "bdabc5451df647a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/离散数学/数论.md",
-                "mode": "preview",
+                "file": "学业/大二上/离散数学/群与编码.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c61c45acbc862aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4d3226c0009cdc77",
+    "id": "bf0f907452fb258b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "68a2a41430eaaf23",
+        "id": "eb67f59fa28b18be",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -69,7 +64,7 @@
         }
       },
       {
-        "id": "29e635efe1c5a1dd",
+        "id": "ceb9cacecfe137a0",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -84,7 +79,7 @@
         }
       },
       {
-        "id": "db37d5b898be86d1",
+        "id": "3c5c5c2baef23afa",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -95,7 +90,7 @@
         }
       },
       {
-        "id": "e59ba97ff0ab067b",
+        "id": "e76ccf8868f2c4b8",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -106,15 +101,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "54d32f04965646a5",
+    "id": "ae9ec9004acf69d5",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "878fd904cd6a0348",
+        "id": "6d880b07ae8ad7fe",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,28 +122,29 @@
         }
       },
       {
-        "id": "70a53af3004e37e0",
+        "id": "fde776354f44e8d0",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "c62e417ee0b1c5db",
+        "id": "20e65c71c409591a",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Drawing 2023-11-09 00.57.59.excalidraw.md"
+            "file": "学业/大二上/概率论与数理统计/第三章 多维随机变量.md"
           }
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,24 +154,29 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "68a2a41430eaaf23",
+  "active": "2c61c45acbc862aa",
   "lastOpenFiles": [
+    "学业/大二上/离散数学/群与编码.md",
+    "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
+    "学业/大二上/概率论与数理统计",
     "学业/大二上/离散数学/数论.md",
-    "Drawing 2023-11-09 00.57.59.excalidraw.md",
     "学业/大二上/离散数学/群论.md",
-    "Excalidraw/Drawing 2023-11-09 00.34.07.excalidraw.md",
-    "Excalidraw",
+    "/学业/大二上/离散数学/群论.md",
+    "未命名.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "2023-11-08.md",
     "学业/大二上/离散数学/files/Pasted image 20231108162006.png",
-    "学业",
+    "学业/大二上/离散数学/files",
+    "学业/大二上/大学物理/物理笔记.md",
+    "学业/大二上/离散数学",
+    "/学业/大二上/离散数学/数论.md",
+    "/学业/大二上/离散数学",
     "学业/大二上/大学物理",
     "学业/大二上",
-    "学业/大二上/大学物理/物理笔记.md",
-    "学业/大二上/离散数学/files/Pasted image 20231108200134.png",
-    "学业/大二上/离散数学/files",
-    "学业/大二上/离散数学"
+    "学业"
   ]
 }
