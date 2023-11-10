@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/离散数学/数论.md",
+                "file": "学业/大二上/信号与系统/第一章 信号与系统概述.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,9 +85,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/离散数学/数论.md",
+                "file": "学业/大二上/信号与系统/第一章 信号与系统概述.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/离散数学/数论.md",
+                "file": "学业/大二上/信号与系统/第一章 信号与系统概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/离散数学/数论.md"
+                "file": "学业/大二上/信号与系统/第一章 信号与系统概述.md"
               }
             }
           }
@@ -149,8 +149,21 @@
   },
   "active": "e05abb487df16f5b",
   "lastOpenFiles": [
-    "学业/大二上/大学物理/物理笔记.md",
+    "学业/大二上/数字电路与逻辑设计/第二章 逻辑门电路.md",
+    "学业/大二上/信号与系统/第一章 信号与系统概述.md",
+    "学业/大二上/信号与系统",
+    "学业/大二上/未命名.md",
+    "学业/大二上/数字电路与逻辑设计/第一章 数字技术基础.md",
+    "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
+    "学业/大二上/数字电路与逻辑设计",
+    "学业/大二上/离散数学/群与编码.md",
+    "学业/大二上/离散数学/群论.md",
+    "学业/大二上/概率论与数理统计",
     "学业/大二上/离散数学/数论.md",
+    "学业/大二上/大学物理/物理笔记.md",
+    "学业/大二上/离散数学/files/Pasted image 20231108200134.png",
+    "学业/大二上/离散数学/files/Pasted image 20231108162006.png",
+    "学业/大二上/离散数学/files",
     "学业/大二上/离散数学",
     "学业/大二上/大学物理",
     "学业/大二上",
