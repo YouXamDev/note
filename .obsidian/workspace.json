@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "c2946315cdc339ac",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第二章 随机变量及其分布.md",
+                "file": "学业/大二上/概率论与数理统计/第四章 数字特征.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第二章 随机变量及其分布.md",
+                "file": "学业/大二上/概率论与数理统计/第四章 数字特征.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第二章 随机变量及其分布.md"
+                "file": "学业/大二上/概率论与数理统计/第四章 数字特征.md"
               }
             }
           }
@@ -163,16 +161,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b1b165b485d3ac7",
+  "active": "e05abb487df16f5b",
   "lastOpenFiles": [
-    "学业/大二上/概率论与数理统计/第四章 数字特征.md",
-    "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
     "学业/大二上/概率论与数理统计/第二章 随机变量及其分布.md",
-    "学业/大二上/概率论与数理统计/第一章 概率论的基本概念.md",
+    "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
+    "学业/大二上/概率论与数理统计/第四章 数字特征.md",
+    "学业/大二上/离散数学/群与编码.md",
     "学业/大二上/离散数学/群论.md",
+    "学业/大二上/概率论与数理统计/第一章 概率论的基本概念.md",
     "学业/大二上/离散数学/files/Pasted image 20231108200134.png",
     "学业/大二上/信号与系统/第三章 连续时间信号的频域分析.md",
-    "学业/大二上/离散数学/群与编码.md",
     "学业/大二上/大学物理/光学.md",
     "学业/大二上/信号与系统/第一章 信号与系统概述.md",
     "学业/大二上/信号与系统/files/Pasted image 20231111161702.png",
