@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 356.5026054382324
   },
   "right": {
     "id": "c2946315cdc339ac",
@@ -161,7 +161,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e55a24d01a1a701",
+  "active": "4edd7464bdff1f17",
   "lastOpenFiles": [
     "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
