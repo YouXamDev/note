@@ -35,7 +35,7 @@
         }
         function generateBreadcrumbs() {
             var path = window.location.pathname;
-            var parts = path.split("/").filter(function(part) { return part.length > 0; });
+            var parts = path.split("/").filter(function (part) { return part.length > 0; });
             var breadcrumbs = '<a href="/note">Note</a>';
             var pathPart = '/note';
             for (var i = 1; i < parts.length; i++) {
@@ -107,9 +107,16 @@
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('a[href*=".md"]').forEach(link => {
-                link.href = link.href.replace(/\.md(#|$)/, '.html$1');
+                const url = new URL(link.href);
+                if (url.pathname.endsWith('/readme.md')) {
+                    url.pathname = url.pathname.replace(/readme\.md$/, '');
+                } else {
+                    url.pathname = url.pathname.replace(/\.md$/, '.html');
+                }
+                link.href = url.href;
             });
         });
+
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
         integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
