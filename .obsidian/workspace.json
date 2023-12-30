@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
+                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
+                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
+                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md"
+                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md"
               }
             }
           }
@@ -163,12 +163,13 @@
   },
   "active": "ac68795f40e65832",
   "lastOpenFiles": [
+    "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
+    "学业/大二上/概率论与数理统计/概率论与数理统计.md",
     "_layouts/a.css",
     "_layouts/default.html",
     "_layouts/default.html.back",
     "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "_layouts",
-    "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
     "学业/大二上/概率论与数理统计/第8章 假设检验.md",
     "学业/大二上/概率论与数理统计/第7章 参数估计.md",
     "学业/大二上/概率论与数理统计/第4章 数字特征.md",
@@ -207,7 +208,6 @@
     "学业/大二上/离散数学/群与编码.md",
     "学业/大二上/信号与系统/files",
     "学业/大二上/信号与系统",
-    "学业/大二上/数字电路与逻辑设计",
-    "学业/大二上/概率论与数理统计"
+    "学业/大二上/数字电路与逻辑设计"
   ]
 }
