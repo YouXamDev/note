@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        {% if page.name | downcase == 'readme.md' %}
-        {{ page.url | split: '/' | last }} - {{ site.title }}
+        {% if page.name == "readme.md" %}
+        {{ page.url | split: '/' | last }}
         {% else %}
-        {{ page.name | remove: '.html' | remove: '.md' }} - {{ site.title }}
+        {{ page.name | remove: '.md' }}
         {% endif %}
     </title>
     <link rel="stylesheet" href="/note/assets/css/style.css?v=fd60e2b3dae0b53f9ba3523f7e8a66880506212d">
@@ -63,6 +63,7 @@
             background-color: #f5f5f5;
             border-radius: 4px;
             font-size: 0.9em;
+            height: 38.9px;
         }
 
         .breadcrumbs a {
