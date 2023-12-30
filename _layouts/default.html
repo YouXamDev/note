@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.name | remove: '.md' }} | note</title>
+    <title>
+        {% if page.name | downcase == 'readme.md' %}
+        {{ page.url | split: '/' | last }}
+        {% else %}
+        {{ page.name | remove: '.html' | remove: '.md' }}
+        {% endif %}
+    </title>
     <link rel="stylesheet" href="/note/assets/css/style.css?v=fd60e2b3dae0b53f9ba3523f7e8a66880506212d">
-    <!-- <link rel="stylesheet" href="a.css"> -->
+    <link rel="stylesheet" href="style.css">
     <!-- KaTeX CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+        integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
     <!-- KaTeX JS -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+        integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
+        crossorigin="anonymous"></script>
     <!-- KaTeX auto-render extension -->
     <script>
         function render() {
             renderMathInElement(document.body, {
                 delimiters: [
-                    {left: "$$", right: "$$", display: true},
-                    {left: "$", right: "$", display: false},
-                    {left: "\\(", right: "\\)", display: false},
-                    {left: "\\[", right: "\\]", display: true}
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
                 ]
             });
         }
     </script>
     <style>
         .footer {
-          font-size: small;
-          color: grey;
-          text-align: center;
-          margin-top: 20px;
-          margin-bottom: 20px;
+            font-size: small;
+            color: grey;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumbs {
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            list-style: none;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .breadcrumbs a {
+            color: #0275d8;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs span {
+            color: #6c757d;
+            margin-right: 5px;
         }
     </style>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-    onload="render();"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="render();"></script>
 </head>
+
 <body>
+    <div class="breadcrumbs">
+        <!-- <a href="{{ site.baseurl }}/">{{ 'Home' }}</a> / -->
+        {% for breadcrumb in page.url | split: '/' %}
+        {% unless forloop.first or forloop.last %}
+        <span> / </span>
+        <a href="{{ site.baseurl }}{{ breadcrumb | prepend: '/' }}">{{ breadcrumb }}</a>
+        {% endunless %}
+        {% endfor %}
+    </div>
     <div class="container-lg px-3 my-5 markdown-body">
-        <h1 style="font-size: 2.5em">{{ page.name | remove: '.md' }}</h1>
+        <h1 style="font-size: 2.5em">
+            {% if page.name | downcase == 'readme.md' %}
+            {{ page.url | split: '/' | last }}
+            {% else %}
+            {{ page.name | remove: '.html' | remove: '.md' }}
+            {% endif %}
+        </h1>
         {{ content }}
     </div>
     <div class="footer">
@@ -48,12 +99,14 @@
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
-          document.querySelectorAll('a[href*=".md"]').forEach(link => {
-            link.href = link.href.replace(/\.md(#|$)/, '.html$1');
-          });
+            document.querySelectorAll('a[href*=".md"]').forEach(link => {
+                link.href = link.href.replace(/\.md(#|$)/, '.html$1');
+            });
         });
-      </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add('h1, h2, h3, h4, h5, h6');</script>
 </body>
+
 </html>
