@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         {% if page.name | downcase == 'readme.md' %}
-        {{ page.url | split: '/' | last }}
+        {{ page.url | split: '/' | last }} - {{ site.title }}
         {% else %}
-        {{ page.name | remove: '.html' | remove: '.md' }}
+        {{ page.name | remove: '.html' | remove: '.md' }} - {{ site.title }}
         {% endif %}
     </title>
     <link rel="stylesheet" href="/note/assets/css/style.css?v=fd60e2b3dae0b53f9ba3523f7e8a66880506212d">
@@ -33,6 +33,19 @@
                 ]
             });
         }
+        function generateBreadcrumbs() {
+            var path = window.location.pathname;
+            var parts = path.split("/").filter(function(part) { return part.length > 0; });
+            var breadcrumbs = '<a href="/note">Note</a>';
+            var pathPart = '';
+            for (var i = 1; i < parts.length; i++) {
+                pathPart += '/' + parts[i];
+                breadcrumbs += ' / <a href="' + pathPart + '">' + decodeURIComponent(parts[i].replace(".html", "")) + '</a>';
+            }
+            document.getElementById("breadcrumbs").innerHTML = breadcrumbs;
+        }
+
+        window.onload = generateBreadcrumbs;
     </script>
     <style>
         .footer {
@@ -73,21 +86,14 @@
 </head>
 
 <body>
-    <div class="breadcrumbs">
-        <!-- <a href="{{ site.baseurl }}/">{{ 'Home' }}</a> / -->
-        {% for breadcrumb in page.url | split: '/' %}
-        {% unless forloop.first or forloop.last %}
-        <span> / </span>
-        <a href="{{ site.baseurl }}{{ breadcrumb | prepend: '/' }}">{{ breadcrumb }}</a>
-        {% endunless %}
-        {% endfor %}
+    <div class="breadcrumbs" id="breadcrumbs">
     </div>
     <div class="container-lg px-3 my-5 markdown-body">
         <h1 style="font-size: 2.5em">
             {% if page.name | downcase == 'readme.md' %}
-            {{ page.url | split: '/' | last }}
+            {{ page.url | split: '/' | last }} A
             {% else %}
-            {{ page.name | remove: '.html' | remove: '.md' }}
+            {{ page.name | remove: '.md' }} B
             {% endif %}
         </h1>
         {{ content }}
