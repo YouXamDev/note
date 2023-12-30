@@ -40,7 +40,7 @@
             var pathPart = '/note';
             for (var i = 1; i < parts.length; i++) {
                 pathPart += '/' + parts[i];
-                breadcrumbs += ' / <a href="' + pathPart + '">' + decodeURIComponent(parts[i].replace(".html", "")) + '</a>';
+                breadcrumbs += ' / &nbsp;<a href="' + pathPart + '">' + decodeURIComponent(parts[i].replace(".html", "")) + '</a>';
             }
             document.getElementById("breadcrumbs").innerHTML = breadcrumbs;
         }
@@ -90,8 +90,8 @@
     </div>
     <div class="container-lg px-3 my-5 markdown-body">
         <h1 style="font-size: 2.5em">
-            {{ page.name }}, {{ page.name | downcase }}, {{ page.name | downcase == 'readme.md'  }}
-            {% if page.name | downcase == 'readme.md' %}
+            {{ page.name }}, {{ page.name | downcase }}, {{ (page.name | downcase) == "readme.md"  }}
+            {% if page.name | downcase == "readme.md" %}
             {{ page.url | split: '/' | last }}
             {% else %}
             {{ page.name | remove: '.md' }}
