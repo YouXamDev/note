@@ -37,7 +37,7 @@
             var path = window.location.pathname;
             var parts = path.split("/").filter(function(part) { return part.length > 0; });
             var breadcrumbs = '<a href="/note">Note</a>';
-            var pathPart = '';
+            var pathPart = '/note';
             for (var i = 1; i < parts.length; i++) {
                 pathPart += '/' + parts[i];
                 breadcrumbs += ' / <a href="' + pathPart + '">' + decodeURIComponent(parts[i].replace(".html", "")) + '</a>';
@@ -90,10 +90,11 @@
     </div>
     <div class="container-lg px-3 my-5 markdown-body">
         <h1 style="font-size: 2.5em">
+            {{ page.name }}, {{ page.name | downcase }}, {{ page.name | downcase == 'readme.md'  }}
             {% if page.name | downcase == 'readme.md' %}
-            {{ page.url | split: '/' | last }} A
+            {{ page.url | split: '/' | last }}
             {% else %}
-            {{ page.name | remove: '.md' }} B
+            {{ page.name | remove: '.md' }}
             {% endif %}
         </h1>
         {{ content }}
