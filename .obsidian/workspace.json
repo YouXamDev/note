@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
+                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
+                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
+                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md"
+                "file": "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md"
               }
             }
           }
@@ -161,8 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4edd7464bdff1f17",
+  "active": "ac68795f40e65832",
   "lastOpenFiles": [
+    "_layouts/default.html.back",
+    "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "_layouts/default.html",
     "_layouts",
     "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
@@ -171,7 +173,6 @@
     "学业/大二上/概率论与数理统计/第4章 数字特征.md",
     "学业/大二上/概率论与数理统计/第2章 随机变量及其分布.md",
     "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
-    "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "学业/大二上/概率论与数理统计/第1章 概率论的基本概念.md",
     "学业/大二上/概率论与数理统计/第3章 多维随机变量.md",
     "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
@@ -207,7 +208,6 @@
     "学业/大二上/信号与系统",
     "学业/大二上/数字电路与逻辑设计",
     "学业/大二上/概率论与数理统计",
-    "学业/大二上/离散数学/files",
-    "学业/大二上/离散数学"
+    "学业/大二上/离散数学/files"
   ]
 }
