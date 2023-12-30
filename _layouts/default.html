@@ -30,6 +30,7 @@
           color: grey;
           text-align: center;
           margin-top: 20px;
+          margin-bottom: 20px;
         }
     </style>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
@@ -45,6 +46,13 @@
         <br>
         <a href="https://github.com/YouXam" target="_blank">GitHub</a> | Youxam
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+          document.querySelectorAll('a[href$=".md"]').forEach(link => {
+            link.href = link.href.replace(/\.md$/, '.html');
+          });
+        });
+    </script>      
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
 </body>

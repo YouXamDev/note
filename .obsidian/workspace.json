@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md",
+                "file": "学业/大二上/概率论与数理统计/第4章 数字特征.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md",
+                "file": "学业/大二上/概率论与数理统计/第4章 数字特征.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md",
+                "file": "学业/大二上/概率论与数理统计/第4章 数字特征.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/概率论与数理统计/概率论与数理统计.md"
+                "file": "学业/大二上/概率论与数理统计/第4章 数字特征.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "ac68795f40e65832",
   "lastOpenFiles": [
-    "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
     "学业/大二上/概率论与数理统计/概率论与数理统计.md",
+    "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
     "_layouts/a.css",
     "_layouts/default.html",
     "_layouts/default.html.back",
