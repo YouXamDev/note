@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         {% if page.name == "readme.md" %}
-        {{ page.url | split: '/' | last }}
+            {% if page.url == "/readme.md" %}
+                Note
+            {% else %}
+                {{ page.url | split: '/' | last }}
+            {% endif %}
         {% else %}
-        {{ page.name | remove: '.md' }}
+            {{ page.name | remove: '.md' }}
         {% endif %}
     </title>
     <link rel="stylesheet" href="/note/assets/css/style.css?v=fd60e2b3dae0b53f9ba3523f7e8a66880506212d">
@@ -205,9 +209,13 @@
         <div class="relative" id="title">
             <h1 style="font-size: 2.5em" class="main-title">
                 {% if page.name == "readme.md" %}
-                {{ page.url | split: '/' | last }}
+                    {% if page.url == "/readme.md" %}
+                        Note
+                    {% else %}
+                        {{ page.url | split: '/' | last }}
+                    {% endif %}
                 {% else %}
-                {{ page.name | remove: '.md' }}
+                    {{ page.name | remove: '.md' }}
                 {% endif %}
             </h1>
         </div>
