@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/大学物理/热学.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/大学物理/热学.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/大学物理/热学.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/大学物理/热学.md"
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md"
               }
             }
           }
@@ -163,6 +163,9 @@
   },
   "active": "ac68795f40e65832",
   "lastOpenFiles": [
+    "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
+    "学业/大二上/信号与系统/第1章 信号与系统概述.md",
+    "学业/大二上/大学物理/热学.md",
     "学业/大二上/大学物理/光学.md",
     "学业/大二上/readme.md",
     "学业/大二上/概率论与数理统计/readme.md",
@@ -171,7 +174,6 @@
     "学业/大二上/数字电路与逻辑设计/readme.md",
     "学业/大二上/大学物理/readme.md",
     "学业/大二上/大学物理/狭义相对论.md",
-    "学业/大二上/大学物理/热学.md",
     "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "学业/大二上/概率论与数理统计/第7章 参数估计.md",
     "学业/大二上/概率论与数理统计/第8章 假设检验.md",
@@ -192,10 +194,8 @@
     "其他/Latex.md",
     "其他",
     "学业/大二上/信号与系统/第6章 z 变换.md",
-    "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二上/第4章 数字特征.md",
     "学业/大二上/第6章 样本与抽样分布 1.md",
-    "学业/大二上/第7章 参数估计 2.md",
     "学业/大二上/概率论与数理统计/files/Pasted image 20231228224535.png",
     "学业/大二上/概率论与数理统计/files/Pasted image 20231228205436.png",
     "学业/大二上/概率论与数理统计/files/Pasted image 20231228142409.jpg",
