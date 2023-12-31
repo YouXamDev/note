@@ -80,7 +80,123 @@
             color: #6c757d;
             margin-right: 5px;
         }
+
+        .js-toc {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            overflow-y: auto;
+            padding: 20px;
+            border-radius: 0 0 0 4px;
+            z-index: 1;
+        }
+
+        @media (min-width: 52em) {
+            .toc.toc-right {
+                transform: translateX(0);
+                right: calc((100% - 60rem)/2);
+                position: relative;
+                top: 0px;
+            }
+
+            .toc {
+                transform: translateX(0);
+            }
+
+            .toc-right~.content {
+                margin-right: 280px !important;
+            }
+
+        }
+
+        .is-position-fixed {
+            position: fixed !important;
+            top: 0;
+        }
+
+
+        .toc-right~.content {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .content {
+            margin-left: 280px;
+        }
+
+        .toc {
+            background-color: rgba(255, 255, 255, .9);
+            transform: translateX(100%);
+            height: 100%;
+            width: 280px;
+        }
+
+        .transition--300 {
+            transition: all 300ms ease-in-out;
+        }
+
+        .toc {
+            overflow-y: auto;
+        }
+
+        .z-1 {
+            z-index: 1;
+        }
+
+        .pt5 {
+            padding-top: 4rem;
+        }
+
+        .pa4 {
+            padding: 2rem;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .content {
+            position: relative;
+        }
+
+        .pt5 {
+            padding-top: 4rem;
+        }
+
+        .pa4 {
+            padding: 2rem;
+        }
+
+ 
+        article,
+        aside,
+        footer,
+        header,
+        nav,
+        section {
+            display: block;
+        }
+
+        .is-active-link::before {
+            background-color: #000000 !important;
+        }
+
+        .js-toc.open {
+            transform: translateX(0);
+            border-left: #eee 1px solid;
+            position: fixed !important;
+            top: 0;
+        }
+
+        
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
         integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
         onload="render();"></script>
@@ -89,21 +205,31 @@
 <body>
     <div class="breadcrumbs" id="breadcrumbs">
     </div>
-    <div class="container-lg px-3 my-5 markdown-body">
-        <h1 style="font-size: 2.5em">
-            {% if page.name == "readme.md" %}
-            {{ page.url | split: '/' | last }}
-            {% else %}
-            {{ page.name | remove: '.md' }}
-            {% endif %}
-        </h1>
-        {{ content }}
+    <div class="container-lg px-3 my-5 markdown-body" style="overflow: hidden;">
+        <div class="relative" id="title">
+            <h1 style="font-size: 2.5em">
+                {% if page.name == "readme.md" %}
+                {{ page.url | split: '/' | last }}
+                {% else %}
+                {{ page.name | remove: '.md' }}
+                {% endif %}
+            </h1>
+        </div>
+        <div id="content">
+            <nav class="toc toc-right js-toc z-1 relative transition--300 absolute pa4 pt5" id="js-toc"
+                style="float: right;"></nav>
+            <div class="content js-toc-content pa4 pt5">
+                {{ content }}
+            </div>
+        </div>
     </div>
     <div class="footer">
         &copy; {{ site.time | date: '%Y' }}. All rights reserved.
         <br>
         <a href="https://github.com/YouXam" target="_blank">GitHub</a> | Youxam
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('a[href*=".md"]').forEach(link => {
@@ -116,11 +242,49 @@
                 link.href = url.href;
             });
         });
+        anchors.add('h1, h2, h3, h4, h5, h6');
+        tocbot.init({
+            tocSelector: '.js-toc',
+            contentSelector: '#content',
+            headingSelector: 'h1, h2, h3',
+            hasInnerContainers: true,
+            headingsOffset: 40,
+            scrollSmoothOffset: -40
+        });
+        window.addEventListener('scroll', () => {
+            const div = document.getElementById('title');
+            const elementToAddClass = document.getElementById('js-toc');
+            const divBottom = div.getBoundingClientRect().bottom;
+            if (divBottom < 0) {
+                elementToAddClass.classList.add('is-position-fixed');
+            } else {
+                elementToAddClass.classList.remove('is-position-fixed');
+            }
+        });
+        document.addEventListener('touchstart', handleTouchStart, false);
+        document.addEventListener('touchmove', handleTouchMove, false);
+        var xDown = null;
+        function handleTouchStart(evt) {
+            const firstTouch = evt.touches[0];
+            xDown = firstTouch.clientX;
+        }
+        function handleTouchMove(evt) {
+            if (!xDown || !window.matchMedia("(max-width: 52em)").matches) {
+                return;
+            }
+            var xUp = evt.touches[0].clientX;
+            var xDiff = xDown - xUp;
+            if (xDiff > 0) {
+                const elementToAddClass = document.getElementById('js-toc');
+                elementToAddClass.classList.add('open');
+            } else if (xDiff < 0) {
+                const elementToAddClass = document.getElementById('js-toc');
+                elementToAddClass.classList.remove('open');
+            }
+            xDown = null;
+        }
 
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
-        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add('h1, h2, h3, h4, h5, h6');</script>
 </body>
 
 </html>
