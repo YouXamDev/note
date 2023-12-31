@@ -14,39 +14,12 @@
     </title>
     <link rel="stylesheet" href="/note/assets/css/style.css?v=fd60e2b3dae0b53f9ba3523f7e8a66880506212d">
     <link rel="stylesheet" href="style.css">
-    <!-- KaTeX CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
-        integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
-    <!-- KaTeX JS -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
-        integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
-        crossorigin="anonymous"></script>
-    <!-- KaTeX auto-render extension -->
-    <script>
-        function render() {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true },
-                    { left: "$", right: "$", display: false },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true }
-                ]
-            });
-        }
-        function generateBreadcrumbs() {
-            var path = window.location.pathname;
-            var parts = path.split("/").filter(function (part) { return part.length > 0; });
-            var breadcrumbs = '<a href="/note">Note</a>';
-            var pathPart = '/note';
-            for (var i = 1; i < parts.length; i++) {
-                pathPart += '/' + parts[i];
-                breadcrumbs += ' / &nbsp;<a href="' + pathPart + '">' + decodeURIComponent(parts[i].replace(".html", "")) + '</a>';
-            }
-            document.getElementById("breadcrumbs").innerHTML = breadcrumbs;
-        }
-
-        window.onload = generateBreadcrumbs;
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css"
+        integrity="sha512-fHwaWebuwA7NSF5Qg/af4UeDx9XqUpYpOGgubo3yWu+b2IQR4UeQwbb42Ti7gVAjNtVoI/I9TEoYeu9omwcC6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.25.0/tocbot.min.css"
+        integrity="sha512-4q0OX9NAYcRTFEfy9nTK0AV9N7MxM665neDXEW3CjAj1pXc6+8Bcd6ryXl6cY8mTBBXt0aXepnSDLLQZSuJRww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .footer {
             font-size: small;
@@ -223,11 +196,6 @@
             height: 24px;
         }
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-        integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="render();"></script>
 </head>
 
 <body>
@@ -252,23 +220,58 @@
         </div>
     </div>
     <button class="fixed-circle" onclick="toggletoc();">
-        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+            <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+        </svg>
     </button>
     <div class="footer">
         &copy; {{ site.time | date: '%Y' }}. All rights reserved.
         <br>
-        <a href="https://github.com/YouXam" target="_blank">GitHub</a> | Youxam
+        <a href="https://github.com/YouXam" target="_blank">Youxam</a>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
-        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"
+        integrity="sha512-byAcNWVEzFfu+tZItctr+WIMUJvpzT2kokkqcBq+VsrM3OrC5Aj9E2gh+hHpU0XNA3wDmX4sDbV5/nkhvTrj4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"
+        integrity="sha512-LQNxIMR5rXv7o+b1l8+N1EZMfhG7iFZ9HhnbJkTp4zjNr5Wvst75AqUeFDxeRUa7l5vEDyUiAip//r+EFLLCyA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"
+        integrity="sha512-iWiuBS5nt6r60fCz26Nd0Zqe0nbk1ZTIQbl3Kv7kYsX+yKMUFHzjaH2+AnM6vp2Xs+gNmaBAVWJjSmuPw76Efg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" onload="render();"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.25.0/tocbot.min.js"
+        integrity="sha512-P4MxNnVYFHmkj6ZlNusCPMjrqfYF7/AWRM0m7vEHkzTITuiW/6LaXk/Ah/mheuPI1xI80it2dP/8Nz+FLJT9MQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
+        function render() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ]
+            });
+        }
+        function generateBreadcrumbs() {
+            var path = window.location.pathname;
+            var parts = path.split("/").filter(function (part) { return part.length > 0; });
+            var breadcrumbs = '<a href="/note">Note</a>';
+            var pathPart = '/note';
+            for (var i = 1; i < parts.length; i++) {
+                pathPart += '/' + parts[i];
+                breadcrumbs += ' / &nbsp;<a href="' + pathPart + '">' + decodeURIComponent(parts[i].replace(".html", "")) + '</a>';
+            }
+            document.getElementById("breadcrumbs").innerHTML = breadcrumbs;
+        }
+        window.onload = generateBreadcrumbs;
         function toggletoc() {
             const elementToAddClass = document.getElementById('js-toc');
             elementToAddClass.classList.toggle('open');
             const circle = document.querySelector('.fixed-circle');
             circle.classList.toggle('open');
         }
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             const drawer = document.getElementById('js-toc');
             const circle = document.querySelector('.fixed-circle');
             if (!drawer.contains(event.target) && !circle.contains(event.target)) {
