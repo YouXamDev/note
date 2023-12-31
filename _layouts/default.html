@@ -144,14 +144,6 @@
             z-index: 1;
         }
 
-        .pt5 {
-            padding-top: 4rem;
-        }
-
-        .pa4 {
-            padding: 2rem;
-        }
-
         .absolute {
             position: absolute;
         }
@@ -195,6 +187,7 @@
 
         .js-toc.mobile {
             position: fixed;
+            display: none;
         }
         
     </style>
@@ -208,7 +201,7 @@
 <body>
     <div class="breadcrumbs" id="breadcrumbs">
     </div>
-    <div class="container-lg px-3 my-5 markdown-body" style="overflow: hidden;">
+    <div class="container-lg px-3 my-5 markdown-body">
         <div class="relative" id="title">
             <h1 style="font-size: 2.5em">
                 {% if page.name == "readme.md" %}
@@ -221,7 +214,7 @@
         <div id="content">
             <nav class="toc toc-right js-toc z-1 relative transition--300 absolute pa4 pt5" id="js-toc"
                 style="float: right;"></nav>
-            <div class="content js-toc-content pa4 pt5">
+            <div class="content js-toc-content">
                 {{ content }}
             </div>
         </div>
@@ -275,37 +268,37 @@
                 elementToAddClass.classList.remove('is-position-fixed');
             }
         });
-        document.addEventListener('touchstart', handleTouchStart, false);
-        document.addEventListener('touchmove', handleTouchMove);
-        var xDown = null, yDown = null;
-        function handleTouchStart(evt) {
-            const firstTouch = evt.touches[0];
-            xDown = firstTouch.clientX;
-            yDown = firstTouch.clientY;
-        }
-        function handleTouchMove(evt) {
-            if (!xDown || !window.matchMedia("(max-width: 52em)").matches) {
-                return;
-            }
-            var xUp = evt.touches[0].clientX;
-            var yUp = evt.touches[0].clientY;
-            var xDiff = xDown - xUp;
-            var yDiff = yDown - yUp;
-            if (Math.abs(yDiff) > Math.abs(xDiff) * 0.5) {
-                xDown = null;
-                yDown = null;
-                return;
-            }
-            if (xDiff > 0) {
-                const elementToAddClass = document.getElementById('js-toc');
-                elementToAddClass.classList.add('open');
-            } else if (xDiff < 0) {
-                const elementToAddClass = document.getElementById('js-toc');
-                elementToAddClass.classList.remove('open');
-            }
-            xDown = null;
-            yDown = null;
-        }
+        // document.addEventListener('touchstart', handleTouchStart, false);
+        // document.addEventListener('touchmove', handleTouchMove);
+        // var xDown = null, yDown = null;
+        // function handleTouchStart(evt) {
+        //     const firstTouch = evt.touches[0];
+        //     xDown = firstTouch.clientX;
+        //     yDown = firstTouch.clientY;
+        // }
+        // function handleTouchMove(evt) {
+        //     if (!xDown || !window.matchMedia("(max-width: 52em)").matches) {
+        //         return;
+        //     }
+        //     var xUp = evt.touches[0].clientX;
+        //     var yUp = evt.touches[0].clientY;
+        //     var xDiff = xDown - xUp;
+        //     var yDiff = yDown - yUp;
+        //     if (Math.abs(yDiff) > Math.abs(xDiff) * 0.5) {
+        //         xDown = null;
+        //         yDown = null;
+        //         return;
+        //     }
+        //     if (xDiff > 0) {
+        //         const elementToAddClass = document.getElementById('js-toc');
+        //         elementToAddClass.classList.add('open');
+        //     } else if (xDiff < 0) {
+        //         const elementToAddClass = document.getElementById('js-toc');
+        //         elementToAddClass.classList.remove('open');
+        //     }
+        //     xDown = null;
+        //     yDown = null;
+        // }
     </script>
 </body>
 
