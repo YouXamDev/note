@@ -153,9 +153,17 @@
                 "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md"
               }
             }
+          },
+          {
+            "id": "d1b74f69e0ca3ffa",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
