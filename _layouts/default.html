@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         {% if page.name == "readme.md" %}
-            {% if page.url == "/readme.md" %}
-                Note
-            {% else %}
-                {{ page.url | split: '/' | last }}
-            {% endif %}
+        {% if page.url == "/readme.md" %}
+        Note
         {% else %}
-            {{ page.name | remove: '.md' }}
+        {{ page.url | split: '/' | last }}
+        {% endif %}
+        {% else %}
+        {{ page.name | remove: '.md' }}
         {% endif %}
     </title>
     <link rel="stylesheet" href="/note/assets/css/style.css?v=fd60e2b3dae0b53f9ba3523f7e8a66880506212d">
@@ -209,13 +209,13 @@
         <div class="relative" id="title">
             <h1 style="font-size: 2.5em" class="main-title">
                 {% if page.name == "readme.md" %}
-                    {% if page.url == "/" %}
-                        Note
-                    {% else %}
-                        {{ page.url | split: '/' | last }}
-                    {% endif %}
+                {% if page.url == "/" %}
+                Note
                 {% else %}
-                    {{ page.name | remove: '.md' }}
+                {{ page.url | split: '/' | last }}
+                {% endif %}
+                {% else %}
+                {{ page.name | remove: '.md' }}
                 {% endif %}
             </h1>
         </div>
@@ -329,6 +329,18 @@
                 elementToAddClass.classList.add('is-position-fixed');
             } else {
                 elementToAddClass.classList.remove('is-position-fixed');
+            }
+        });
+        document.querySelectorAll('a').forEach(function (anchor) {
+            var href = anchor.getAttribute('href');
+            if (href && (href.startsWith('https://youxam.github.io/note/') || href.startsWith('#'))) {
+                var hashtag = href.split('#')[1];
+                if (hashtag) {
+                    hashtag = decodeURIComponent(hashtag);
+                    hashtag = anchors.urlify(hashtag);
+                    anchor.setAttribute('href', href.split('#')[0] + '#' + hashtag);
+                    console.log(href, '->', anchor.getAttribute('href'))
+                }
             }
         });
     </script>
