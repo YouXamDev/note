@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b7411db3d763dfa9",
+        "id": "86db74497ef30083",
         "type": "tabs",
         "children": [
           {
-            "id": "875db35ee92d8c0e",
+            "id": "b96ebd66eb176358",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,6 +17,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "ca1fa3d91ce29434",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5026054382324
+    "width": 381.5026054382324
   },
   "right": {
     "id": "c2946315cdc339ac",
@@ -157,20 +165,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "875db35ee92d8c0e",
+  "active": "b96ebd66eb176358",
   "lastOpenFiles": [
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102103416.png",
+    "学业/大二上/马克思主义原理/马克思主义哲学.md",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102100752.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102102002.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102101719.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102101133.png",
-    "学业/大二上/马克思主义原理/files/Pasted image 20240102100752.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102100234.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102100003.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102095653.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102095303.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102094824.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102095644.png",
-    "学业/大二上/马克思主义原理/files/Pasted image 20240102100231.png",
-    "学业/大二上/马克思主义原理/马克思主义哲学.md",
     "学业/大二上/马克思主义原理/files/马原速成04讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成03讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
