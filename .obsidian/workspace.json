@@ -149,12 +149,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d9f208322d759489",
+  "active": "554732a3232ce0e1",
   "lastOpenFiles": [
     "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
