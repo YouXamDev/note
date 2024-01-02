@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "cbd7a4691bf71304",
+    "id": "a30bab2dba01b1f3",
     "type": "split",
     "children": [
       {
-        "id": "4f934db28454ea9f",
+        "id": "799c2d3f6c51e396",
         "type": "tabs",
         "children": [
           {
-            "id": "d63d50ef43f27ee6",
+            "id": "6762d95fad25af8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/大学物理/狭义相对论.md",
-                "mode": "preview",
+                "file": "学业/大二上/概率论与数理统计/第3章 多维随机变量.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bf0f907452fb258b",
+    "id": "dbbf477c2f333b2a",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "eb67f59fa28b18be",
+        "id": "77eecf921b8b71b6",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,12 +39,12 @@
         }
       },
       {
-        "id": "ceb9cacecfe137a0",
+        "id": "0db76fa6e0b26136",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "切比雪夫",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "3c5c5c2baef23afa",
+        "id": "6658c75d3f6a0e1b",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "e76ccf8868f2c4b8",
+        "id": "5212dddf2b4df729",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,16 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "ae9ec9004acf69d5",
+    "id": "9b81a493857be799",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "6d880b07ae8ad7fe",
+        "id": "de925f17cfa6c25b",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "学业/大二上/大学物理/狭义相对论.md",
+            "file": "学业/大二上/概率论与数理统计/第3章 多维随机变量.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,100 +97,89 @@
         }
       },
       {
-        "id": "fde776354f44e8d0",
+        "id": "0848245318c23339",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "学业/大二上/大学物理/狭义相对论.md",
+            "file": "学业/大二上/概率论与数理统计/第3章 多维随机变量.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "20e65c71c409591a",
+        "id": "fa29cf8b5326cc57",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "学业/大二上/大学物理/狭义相对论.md"
+            "file": "学业/大二上/概率论与数理统计/第3章 多维随机变量.md"
           }
-        }
-      },
-      {
-        "id": "22853690e517673b",
-        "type": "leaf",
-        "state": {
-          "type": "advanced-tables-toolbar",
-          "state": {}
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "d63d50ef43f27ee6",
+  "active": "6762d95fad25af8b",
   "lastOpenFiles": [
-    "学业/大二上/概率论与数理统计/第7章 参数估计.md",
-    "学业/大二上/大学物理/狭义相对论.md",
-    "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
-    "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
+    "学业/大二上/概率论与数理统计/第2章 随机变量及其分布.md",
     "学业/大二上/概率论与数理统计/第1章 概率论的基本概念.md",
     "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
-    "学业/大二上/概率论与数理统计/第8章 假设检验.md",
-    "学业/大二上/概率论与数理统计/第2章 随机变量及其分布.md",
-    "学业/大二上/大学物理/光学.md",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228224535.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228205436.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228142409.jpg",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228135822.png",
-    "学业/大二上/离散数学/群与编码.md",
-    "学业/大二上/离散数学/群论.md",
-    "学业/大二上/离散数学/数论.md",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226143443.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226142659.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226142648.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226141054.png",
-    "学业/大二上/概率论与数理统计/files",
+    "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
+    "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
     "学业/大二上/概率论与数理统计/第4章 数字特征.md",
     "学业/大二上/概率论与数理统计/第3章 多维随机变量.md",
-    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
+    "学业/大二上/大学物理/热学.md",
+    "readme.md",
+    "学业/大二上/大学物理/光学.md",
+    "学业/大二上/大学物理/readme.md",
+    "学业/大二上/大学物理/狭义相对论.md",
+    "学业/大二上/readme.md",
+    "学业/大二上/大学物理",
+    "学业/readme.md",
+    "学业/大二上",
+    "学业",
+    "_layouts/style.css",
+    "_layouts/default.html",
+    "_layouts",
     "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
-    "学业/大二上/信号与系统/第6章 z 变换.md",
-    "学业/大二上/数字电路与逻辑设计/第一章 数字技术基础.md",
-    "学业/大二上/概率论与数理统计/第三章 多维随机变量.md",
-    "学业/大二上/信号与系统/第六章 z 变换.md",
     "学业/大二上/信号与系统/第1章 信号与系统概述.md",
-    "/学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
-    "/学业/大二上/信号与系统/第1章 信号与系统概述.md",
-    "/学业/大二上/概率论与数理统计/第3章 多维随机变量.md",
-    "/学业/大二上/概率论与数理统计/第2章 随机变量及其分布.md",
-    "/学业/大二上/概率论与数理统计/第1章 概率论的基本概念.md",
-    "学业/大二上/信号与系统/files/IMG_1385.jpeg",
-    "学业/大二上/离散数学/files/Pasted image 20231108200134.png",
+    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
+    "学业/大二上/信号与系统/readme.md",
+    "学业/大二上/信号与系统/第6章 z 变换.md",
     "学业/大二上/信号与系统",
+    "学业/大二上/信号与系统/files/Pasted image 20240102115415.png",
+    "学业/大二上/信号与系统/files/Pasted image 20240101221058.png",
+    "学业/大二上/信号与系统/files/Pasted image 20240101220959.png",
+    "学业/大二上/信号与系统/files/Pasted image 20240101201744.png",
+    "学业/大二上/信号与系统/files/Pasted image 20240102120507.png",
+    "学业/大二上/信号与系统/files/Pasted image 20231111161702.png",
+    "学业/大二上/信号与系统/files/IMG_1385.jpeg",
+    "学业/大二上/信号与系统/files/Pasted image 20240101201731.png",
     "学业/大二上/信号与系统/files",
-    "/学业/大二上/信号与系统/files",
-    "/学业/大二上/信号与系统",
-    "学业/大二上/数字电路与逻辑设计",
-    "学业/大二上/概率论与数理统计",
-    "未命名.canvas",
-    "未命名 2.canvas",
-    "未命名 1.canvas",
-    "学业/大二上/离散数学/files",
+    "学业/大二上/离散数学/群论.md",
+    "学业/大二上/离散数学/readme.md",
+    "学业/大二上/离散数学/数论.md",
+    "学业/大二上/离散数学/群与编码.md",
     "学业/大二上/离散数学",
-    "/学业/大二上/离散数学"
+    "学业/大二上/概率论与数理统计/第7章 参数估计.md",
+    "学业/大二上/概率论与数理统计/readme.md",
+    "学业/大二上/概率论与数理统计/第8章 假设检验.md",
+    "学业/大二上/概率论与数理统计",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102103416.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102095303.png"
   ]
 }
