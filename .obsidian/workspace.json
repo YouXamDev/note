@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b5422c51350d8754",
+        "id": "b7411db3d763dfa9",
         "type": "tabs",
         "children": [
           {
-            "id": "4c0eb5639d818eba",
+            "id": "875db35ee92d8c0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bd828589ec6a570",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66f612dc118db7cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学业/大二上/概率论与数理统计/第7章 参数估计.md",
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md"
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md"
               }
             }
           },
@@ -182,14 +157,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8bd828589ec6a570",
+  "active": "875db35ee92d8c0e",
   "lastOpenFiles": [
-    "学业/大二上/信号与系统/files/Pasted image 20240101221058.png",
-    "学业/大二上/信号与系统/files/Pasted image 20240101220959.png",
-    "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102102002.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102101719.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102101133.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102100752.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102100234.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102100003.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102095653.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102095303.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102094824.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102095644.png",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102100231.png",
+    "学业/大二上/马克思主义原理/马克思主义哲学.md",
+    "学业/大二上/马克思主义原理/files/马原速成04讲义@空卡空卡空空卡.pdf",
+    "学业/大二上/马克思主义原理/files/马原速成03讲义@空卡空卡空空卡.pdf",
+    "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
+    "学业/大二上/马克思主义原理/files/归档.zip",
+    "学业/大二上/马克思主义原理/files/马原速成课05 讲义.pdf",
+    "学业/大二上/马克思主义原理/政治经济学.md",
+    "学业/大二上/马克思主义原理/科学社会主义.md",
     "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
-    "学业/大二上/信号与系统/files/Pasted image 20240101201744.png",
-    "学业/大二上/信号与系统/files/Pasted image 20240101201731.png",
+    "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二上/信号与系统/第1章 信号与系统概述.md",
     "学业/大二上/概率论与数理统计/第8章 假设检验.md",
     "学业/大二上/概率论与数理统计/第7章 参数估计.md",
@@ -202,33 +192,18 @@
     "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
     "readme.md",
     "学业/readme.md",
-    "学业/大二上/马克思主义原理/files/马原速成03讲义@空卡空卡空空卡.pdf",
-    "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成01 讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成课06@空卡空卡空空卡.pdf",
-    "学业/大二上/马克思主义原理/马克思主义哲学.md",
-    "学业/大二上/马克思主义原理/政治经济学.md",
-    "学业/大二上/马克思主义原理/科学社会主义.md",
     "学业/大二上/马克思主义原理/files/政经讲义（下）@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/政经讲义（上）@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/科社讲义.pdf",
     "学业/大二上/马克思主义原理/readme.md",
     "学业/大二上/信号与系统/readme.md",
-    "学业/大二上/马克思主义原理/未命名",
     "学业/大二上/readme.md",
-    "学业/大二上/马克思主义原理/files/马原速成课05 讲义.pdf",
-    "学业/大二上/马克思主义原理/files/马原速成04讲义@空卡空卡空空卡.pdf",
     "未命名.md",
     "学业/大二上/离散数学/群论.md",
     "学业/大二上/离散数学/数论.md",
     "学业/大二上/离散数学/群与编码.md",
-    "其他/Latex.md",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228224535.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228205436.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228142409.jpg",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231228135822.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226143443.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226142659.png",
-    "学业/大二上/概率论与数理统计/files/Pasted image 20231226142648.png"
+    "其他/Latex.md"
   ]
 }
