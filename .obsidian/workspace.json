@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5026054382324
+    "width": 279.5026054382324
   },
   "right": {
     "id": "c2946315cdc339ac",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md"
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md"
               }
             }
           },
@@ -167,8 +167,10 @@
   },
   "active": "b96ebd66eb176358",
   "lastOpenFiles": [
-    "学业/大二上/马克思主义原理/files/Pasted image 20240102103416.png",
+    "学业/大二上/信号与系统/files/Pasted image 20240102115415.png",
+    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
     "学业/大二上/马克思主义原理/马克思主义哲学.md",
+    "学业/大二上/马克思主义原理/files/Pasted image 20240102103416.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102100752.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102102002.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102101719.png",
@@ -178,7 +180,6 @@
     "学业/大二上/马克思主义原理/files/Pasted image 20240102095653.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102095303.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102094824.png",
-    "学业/大二上/马克思主义原理/files/Pasted image 20240102095644.png",
     "学业/大二上/马克思主义原理/files/马原速成04讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成03讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
@@ -186,7 +187,6 @@
     "学业/大二上/马克思主义原理/files/马原速成课05 讲义.pdf",
     "学业/大二上/马克思主义原理/政治经济学.md",
     "学业/大二上/马克思主义原理/科学社会主义.md",
-    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
     "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二上/信号与系统/第1章 信号与系统概述.md",
     "学业/大二上/概率论与数理统计/第8章 假设检验.md",
