@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b96ebd66eb176358",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d9f208322d759489",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5026054382324
+    "width": 240.50260543823242
   },
   "right": {
     "id": "c2946315cdc339ac",
@@ -97,9 +85,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -114,9 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md"
+                "file": "学业/大二上/马克思主义原理/马克思主义哲学.md"
               }
             }
           },
@@ -168,24 +156,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b96ebd66eb176358",
+  "active": "d9f208322d759489",
   "lastOpenFiles": [
-    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150308.png",
-    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150215.png",
-    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150130.png",
+    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
+    "学业/大二上/马克思主义原理/files/政经讲义（上）@空卡空卡空空卡.pdf",
+    "学业/大二上/马克思主义原理/files/科社讲义.pdf",
+    "学业/大二上/数字电路与逻辑设计/第4章 集成触发器.md",
     "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150046.png",
+    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150130.png",
+    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150215.png",
+    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150308.png",
+    "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102153337.png",
+    "学业/大二上/马克思主义原理/readme.md",
+    "学业/大二上/readme.md",
+    "学业/readme.md",
+    "readme.md",
+    "学业/大二上/数字电路与逻辑设计/readme.md",
+    "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
     "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102143303.png",
     "学业/大二上/数字电路与逻辑设计/files",
     "学业/大二上/信号与系统/第6章 z 变换.md",
     "学业/大二上/信号与系统/第1章 信号与系统概述.md",
-    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
     "学业/大二上/信号与系统/files/Pasted image 20240102120507.png",
     "学业/大二上/信号与系统/files/Pasted image 20240102115415.png",
     "学业/大二上/马克思主义原理/马克思主义哲学.md",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102103416.png",
     "学业/大二上/马克思主义原理/files/Pasted image 20240102100752.png",
-    "学业/大二上/马克思主义原理/files/Pasted image 20240102102002.png",
-    "学业/大二上/马克思主义原理/files/Pasted image 20240102101719.png",
     "学业/大二上/马克思主义原理/files/马原速成04讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成03讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
@@ -203,18 +199,9 @@
     "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
     "学业/大二上/概率论与数理统计/第6章 样本与抽样分布.md",
     "学业/大二上/概率论与数理统计/第9章 方差分析及回归分析.md",
-    "readme.md",
-    "学业/readme.md",
     "学业/大二上/马克思主义原理/files/马原速成01 讲义@空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成课06@空卡空卡空空卡.pdf",
-    "学业/大二上/马克思主义原理/files/政经讲义（下）@空卡空卡空空卡.pdf",
-    "学业/大二上/马克思主义原理/files/政经讲义（上）@空卡空卡空空卡.pdf",
-    "学业/大二上/马克思主义原理/readme.md",
     "学业/大二上/信号与系统/readme.md",
-    "学业/大二上/readme.md",
-    "未命名.md",
-    "学业/大二上/离散数学/群论.md",
-    "学业/大二上/离散数学/数论.md",
-    "学业/大二上/离散数学/群与编码.md"
+    "未命名.md"
   ]
 }
