@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
+                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
+                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
+                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/信号与系统/第6章 z 变换.md"
+                "file": "学业/大二上/信号与系统/第5章 拉普拉斯变换.md"
               }
             }
           },
@@ -181,13 +181,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "816b564a8d1b3889",
+  "active": "ce40dd0c3647c1e9",
   "lastOpenFiles": [
+    "学业/大二上/信号与系统/第6章 z 变换.md",
     "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
     "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二上/数字电路与逻辑设计/第4章 集成触发器.md",
     "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
-    "学业/大二上/信号与系统/第6章 z 变换.md",
     "学业/大二上/信号与系统/第1章 信号与系统概述.md",
     "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
     "学业/大二上/马克思主义原理/files/马原速成03讲义@空卡空卡空空卡.pdf",
