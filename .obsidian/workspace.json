@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "ca96d9328261fc86",
+            "id": "b22ba9233fc10368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其他/Latex.md",
+                "file": "学业/大二上/大学物理/光学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/大学物理/狭义相对论.md",
+                "file": "学业/大二上/大学物理/光学.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/大学物理/狭义相对论.md",
+                "file": "学业/大二上/大学物理/光学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/大学物理/狭义相对论.md"
+                "file": "学业/大二上/大学物理/光学.md"
               }
             }
           },
@@ -168,8 +169,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2e4e64ff960142f1",
+  "active": "b22ba9233fc10368",
   "lastOpenFiles": [
+    "学业/大二上/大学物理/狭义相对论.md",
     "学业/大二上/大学物理/量子力学.md",
     "学业/大二上/大学物理/光学.md",
     "学业/大二上/大学物理/files/Pasted image 20240107223940.png",
@@ -183,7 +185,6 @@
     "学业/大二上/大学物理/readme.md",
     "学业/大二上/信号与系统/第6章 z 变换.md",
     "学业/大二上/大学物理/热学.md",
-    "学业/大二上/大学物理/狭义相对论.md",
     "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
     "学业/大二上/大学物理/files/Pasted image 20240106195336.png",
     "学业/大二上/大学物理/files/Pasted image 20240106194307.png",
