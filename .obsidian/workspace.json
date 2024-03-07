@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "32c17a0233686db4",
+        "id": "61a9a3645b6aa102",
         "type": "tabs",
         "children": [
           {
-            "id": "b22ba9233fc10368",
+            "id": "6d2539b770ae7167",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二上/离散数学/群论.md",
+                "file": "学业/大二下/电磁场与电磁波/第 1 章矢量分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5aa7d4ccbed78240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43783fa57e1b50a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "其他/Latex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二上/离散数学/群论.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二上/离散数学/群论.md",
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二上/离散数学/群论.md"
+                "file": "学业/大二上/信号与系统/第6章 z 变换.md"
               }
             }
           },
@@ -138,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,18 +182,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b22ba9233fc10368",
+  "active": "5aa7d4ccbed78240",
   "lastOpenFiles": [
+    "学业/大二下/电磁场与电磁波/第 2 章静电场.md",
+    "其他/Latex.md",
+    "学业/大二下/电磁场与电磁波/第 1 章矢量分析.md",
+    "学业/大二下/电磁场与电磁波/readme.md",
+    "学业/大二下/readme.md",
+    "学业/大二下/电磁场与电磁波",
+    "学业/大二下/计算机组成原理/第二章 运算方法与运算器.md",
+    "学业/大二下/计算机组成原理/readme.md",
+    "学业/大二下/数字信号处理/readme.md",
+    "学业/大二下/毛概/readme.md",
+    "学业/大二下/计算机组成原理",
+    "学业/大二上/离散数学/群论.md",
     "学业/大二上/信号与系统/第1章 信号与系统概述.md",
     "学业/大二下/计算机网络/readme.md",
     "学业/大二下/现代密码学/readme.md",
-    "学业/大二下/毛概/readme.md",
-    "学业/大二下/数字信号处理/readme.md",
     "学业/大二下/计算机网络",
     "学业/大二下/现代密码学",
     "学业/大二下/毛概",
     "学业/大二下/数字信号处理",
-    "学业/大二下/readme.md",
     "学业/大二下",
     "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
@@ -192,17 +227,8 @@
     "学业/大二上/大学物理/files/Pasted image 20240107215707.png",
     "学业/大二上/大学物理/files/Pasted image 20240107215630.png",
     "学业/大二上/大学物理/files/Pasted image 20240107092608.png",
-    "其他/Latex.md",
-    "学业/大二上/大学物理/readme.md",
-    "学业/大二上/信号与系统/第6章 z 变换.md",
-    "学业/大二上/信号与系统/第5章 拉普拉斯变换.md",
     "学业/大二上/大学物理/files/Pasted image 20240106195336.png",
     "学业/大二上/大学物理/files/Pasted image 20240106194307.png",
-    "学业/大二上/大学物理/files",
-    "学业/大二上/信号与系统/readme.md",
-    "学业/大二上/数字电路与逻辑设计/第4章 集成触发器.md",
-    "学业/大二上/数字电路与逻辑设计/第2章 逻辑门电路.md",
-    "学业/大二上/马克思主义原理/files/马原速成02 讲义 @空卡空卡空空卡.pdf",
     "学业/大二上/数字电路与逻辑设计/files/Pasted image 20240102150046.png"
   ]
 }
