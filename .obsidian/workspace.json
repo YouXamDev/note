@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md",
+                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md",
+                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md",
+                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md"
+                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "1d641447b8b6d32b",
   "lastOpenFiles": [
-    "学业/大二下/电磁场与电磁波/第 3 章 恒定电场.md",
     "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md",
+    "学业/大二下/电磁场与电磁波/第 3 章 恒定电场.md",
     "学业/大二下/电磁场与电磁波/第 5 章 静态场的边值问题.md",
     "学业/大二下/电磁场与电磁波/第 2 章 静电场.md",
     "学业/大二下/电磁场与电磁波/readme.md",
