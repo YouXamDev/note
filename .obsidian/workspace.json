@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d641447b8b6d32b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
+                "file": "学业/大二下/数字信号处理/第 2 章 离散时间系统和离散信号的变换.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Ï",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
+                "file": "学业/大二下/数字信号处理/第 2 章 离散时间系统和离散信号的变换.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
+                "file": "学业/大二下/数字信号处理/第 2 章 离散时间系统和离散信号的变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md"
+                "file": "学业/大二下/数字信号处理/第 2 章 离散时间系统和离散信号的变换.md"
               }
             }
           },
@@ -170,19 +157,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d641447b8b6d32b",
+  "active": "8484919d419211d3",
   "lastOpenFiles": [
-    "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md",
-    "学业/大二下/电磁场与电磁波/第 3 章 恒定电场.md",
-    "学业/大二下/电磁场与电磁波/第 5 章 静态场的边值问题.md",
+    "学业/大二上/信号与系统/第6章 z 变换.md",
+    "学业/大二下/数字信号处理/第 2 章 离散时间系统和离散信号的变换.md",
+    "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二下/电磁场与电磁波/第 2 章 静电场.md",
+    "学业/大二上/信号与系统/第1章 信号与系统概述.md",
+    "学业/大二下/数字信号处理/files/Pasted image 20240422152803.png",
+    "学业/大二下/数字信号处理/files",
+    "学业/大二下/数字信号处理/readme.md",
+    "学业/大二下/毛概/readme.md",
+    "学业/大二下/计算机网络/readme.md",
     "学业/大二下/电磁场与电磁波/readme.md",
+    "学业/大二下/电磁场与电磁波/第 5 章 静态场的边值问题.md",
+    "学业/大二下/电磁场与电磁波/第 4 章 恒定磁场.md",
+    "学业/大二下/readme.md",
+    "学业/大二上/大学物理/光学.md",
+    "学业/大二下/电磁场与电磁波/第 3 章 恒定电场.md",
+    "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
     "学业/大二下/计算机组成原理/第二章 运算方法与运算器.md",
     "学业/大二下/计算机组成原理/readme.md",
-    "学业/大二下/毛概/readme.md",
-    "学业/大二下/数字信号处理/readme.md",
     "学业/大二下/现代密码学/readme.md",
-    "学业/大二下/电磁场与电磁波/第 1 章 矢量分析.md",
     "学业/大二下/电磁场与电磁波/files/Pasted image 20240411201713.png",
     "学业/大二下/电磁场与电磁波/files/Pasted image 20240411201110.png",
     "学业/大二下/电磁场与电磁波/files/Pasted image 20240411201005.png",
@@ -191,31 +187,22 @@
     "其他/Latex.md",
     "readme.md",
     "毛概《中国社会各阶级的分析》PPT稿.md",
-    "学业/大二上/信号与系统/第6章 z 变换.md",
     "学业/大二上/信号与系统/信号与系统.md",
-    "学业/大二下/readme.md",
     "学业/大二下/电磁场与电磁波",
     "学业/大二下/计算机组成原理",
     "学业/大二上/离散数学/群论.md",
-    "学业/大二上/信号与系统/第1章 信号与系统概述.md",
-    "学业/大二下/计算机网络/readme.md",
     "学业/大二下/计算机网络",
     "学业/大二下/现代密码学",
     "学业/大二下/毛概",
     "学业/大二下/数字信号处理",
     "学业/大二下",
-    "学业/大二上/信号与系统/第3章 连续时间信号的频域分析.md",
     "学业/大二上/概率论与数理统计/第5章 大数定律及中心极限定理.md",
     "学业/大二上/信号与系统/信号与系统.pdf",
-    "学业/大二上/概率论与数理统计/概率论与数理统计.pdf",
     "学业/大二上/概率论与数理统计/概率论与数理统计.md",
-    "学业/大二上/大学物理/大学物理_all.md",
-    "学业/大二上/大学物理/all.md",
     "学业/大二上/大学物理/files/Pasted image 20240107223940.png",
     "学业/大二上/大学物理/files/Pasted image 20240107223939.png",
     "学业/大二上/大学物理/files/Pasted image 20240107223931.png",
     "学业/大二上/大学物理/files/Pasted image 20240106180450.png",
-    "学业/大二上/大学物理/files/Pasted image 20240107215707.png",
-    "学业/大二上/大学物理/files/Pasted image 20240107215630.png"
+    "学业/大二上/大学物理/files/Pasted image 20240107215707.png"
   ]
 }
