@@ -89,7 +89,7 @@ $$
 $$
 H_a(s) = \sum_{i=1}^N \frac{\color{red}A_i}{s - {\color{blue}s_i}} 
 \Rightarrow
-H(z) = {\color{red}T}\sum_{i=1}^N \frac{\color{red}A_i}{1 - e^{{\color{blue}s_i} T} z^{-1}}
+H(z) = {\color{red}T}\sum_{i=1}^N \frac{\color{red}A_i}{1 - e^{ {\color{blue}s_i} T} z^{-1}}
 $$
 
 ROC 为 $|z| > |e^{s_iT}|$
