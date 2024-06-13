@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学业/大二下/计算机网络/readme.md",
+                "file": "学业/大二下/电磁场与电磁波/readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学业/大二下/计算机网络/readme.md",
+                "file": "学业/大二下/电磁场与电磁波/readme.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学业/大二下/计算机网络/readme.md",
+                "file": "学业/大二下/电磁场与电磁波/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学业/大二下/计算机网络/readme.md"
+                "file": "学业/大二下/电磁场与电磁波/readme.md"
               }
             }
           },
@@ -157,10 +157,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4edd7464bdff1f17",
+  "active": "abf57285af81998a",
   "lastOpenFiles": [
-    "学业/大二下/计算机网络/第五章作业.md",
     "学业/大二下/计算机网络/readme.md",
+    "学业/大二下/计算机网络/第五章作业.md",
     "学业/大二下/电磁场与电磁波/第 10 章 矩形波导.md",
     "学业/大二下/电磁场与电磁波/第 8 章 波的反射与折射.md",
     "学业/大二下/电磁场与电磁波/第 7 章 平面波在无界媒质中的传播.md",
