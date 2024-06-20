@@ -8,14 +8,19 @@ $$
 
 #### 查表法
 
-1. 由给定的通带指标 $\Omega_p, A_p$ 和阻带 $\Omega_s, A_s$，查表求得滤波器的阶数 $N$：
+1. 由给定的通带指标 $\Omega_p, A_p$ 和阻带 $\Omega_s, A_s$，计算或者查表求得滤波器的阶数 $N$：
 
     - 通带频率: $\Omega_p$
     - 通带内最大衰减: $A_p$
     - 阻带下限频率: $\Omega_s$
     - 阻带内最小衰减: $A_s$
 
-    先将频率归一化：
+	若计算：
+	
+	$$
+	N=\left\lceil \frac{\lg \left( \frac{10^{0.1 A_s}-1}{10^{0.1 A_p} - 1} \right)}{2 \lg \left(  \frac{\Omega_s}{\Omega_p} \right)} \right\rceil
+	$$
+    若查表，则先将频率归一化：
 
     $$\lambda_p = 1, \lambda_s = \frac{\Omega_s}{\Omega_p}$$
 2. 从表中得到 $H(p)$ 的分母多项式；
@@ -106,3 +111,64 @@ $$
 2. 根据 $\Omega=\frac 2 T \tan\frac{\omega}2=2 f_s \tan\frac{\omega}2$ 转换 DF 性能指标，得到 AF 性能指标 $\Omega_s, \Omega_p$；
 3. 根据 $\Omega_s, \Omega_p, A_p, A_s$ 设计模拟低通原型滤波器，得到 AF 的系统函数 $H_a(s)$；
 4. 根据双线性变换法，得到 DF 的系统函数 $H(z)$。
+
+## IIR 数字滤波器的实现结构
+
+### 直接型
+
+$$H(Z)=\frac{\sum_{i=0}^Ma_iz^{-i}}{1-\sum_{i-1}^Nb_i^{-i}}$$
+
+**直接 1 型**：
+
+![](files/Pasted%20image%2020240620161918.png)
+**直接 2 型**：
+
+![](files/Pasted%20image%2020240620161956.png)
+
+### 正准型
+
+![](files/Pasted%20image%2020240620165324.png)
+
+### 级联型
+
+把 $H(z)$ 分解成若干实系数二阶因式的乘积，为了减小误差，应当把互相最靠近的零极点配对到一起。
+
+每一级的传输函数可表示为 
+
+$$
+H_i(z)=\frac{1+\alpha_{1i}z^{-1}+\alpha_{2i}z^{-2}}{1+\beta_{1i}z^{-1}+\beta_{2i}z^{-2}}
+$$
+可能会余一项。
+
+例如 
+
+$$
+\begin{aligned}
+H(z)&=\frac{0.1432(1+3z^{-1}+3z^{-2}+z^{-3})}{1-0.1801z^{-1}+0.3419z^{-2}-0.0165z^{-3}}\\
+&=0.1432 \cdot \frac{1+2z^{-1}+z^{-2}}{1-0.1309z^{-1}+0.3355z^{-2}}\cdot\frac{1+z^{-1}}{1-0.0492z^{-1}}
+\end{aligned}
+$$
+
+![](files/Pasted%20image%2020240620170208.png)
+
+## 并联型
+
+将 $H(z)$ 按部分分式展开：
+
+$$
+\begin{aligned}
+H(z)&=\frac{\sum_{i=1}^M a_i z^{-i}}{1-\sum_{i=1}^N b_i z^{-i}}
+&=\sum_{i=1}^{N_1}\frac{A_i}{1+p_i z^{-1}}+\sum_{i=1}^{N_2}\frac{\alpha_0+\alpha_{1i}z^{-1}}{1+\beta_{1i}z^{-1}+\beta_{2i}z^{-2}}+\sum_{i=0}^{M-N}C_iz^{-i}
+\end{aligned}
+$$
+
+![](files/Pasted%20image%2020240620172043.png)
+
+当系统函数 $H(z)$ 有多重极点时，
+
+$$H(z)=\sum_{i=1}^{N_1}\frac{A_i}{1+p_iz^{-1}}+\frac{B_1}{1+\beta z^{-1}}+\frac{B_2}{(1+\beta z^{-1})^2}$$
+
+上式右侧的最后两项可以安排在一条支路里，例如：
+
+![](files/Pasted%20image%2020240620172706.png)
+
