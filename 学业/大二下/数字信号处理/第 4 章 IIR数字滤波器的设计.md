@@ -27,7 +27,14 @@ $$
 3. 把 $p$ 替换为 $s / \Omega_p$，得到 $H(s)$。
     $$H(s) = H(p)\vert_{p = \frac{s}{\Omega_p}}$$
 
-### 切比雪夫滤波器
+| 阶数 $n$ |      $A(p)$       |
+| :----: | :---------------: |
+|   1    |       $p+1$       |
+|   2    | $p^2+\sqrt{2}p+1$ |
+|   3    | $(p^2+p+1)(p+1)$  |
+|  ...   |        ...        |
+
+### 切比雪夫滤波器（不考）
 
 $$
 \vert H(j\Omega) \vert^2 = \frac{1}{1 + \varepsilon^2 C_N^2 \left( \frac{\Omega}{\Omega_c} \right)}
@@ -45,7 +52,8 @@ $$
 #### 查表法
 
 1. 归一化 $\lambda_p = 1, \lambda_s = \frac{\Omega_s}{\Omega_p}$；
-2. 查曲线确定滤波器的阶数 $N$；
+2. 查曲线确定滤波器的阶数 $N$ 或者计算得到：
+	$$N=\frac{\text{arccosh}\left\lceil\sqrt{\frac{10^{0.1A_s}-1}{10^{0.1A_p}-1}}\right\rceil}{\text{arccosh}\frac{\Omega_s}{\Omega_p}}$$
 3. 查表得到 $\varepsilon$；
 4. 查表得到 $H(p)$ 的分母多项式的因式形式 $A(p)$，求得 $H(p)$：
     $$H(p)=\frac 1{\varepsilon 2^{N-1}A(p)}$$
@@ -82,7 +90,7 @@ $$
 ### 冲激响应不变法
 
 1. 对已知的 $H_a(s)$ 进行拉氏反变换，求得 $h_a(t)$，
-2. 根据冲激相应不变准则，令 $h(n)=Th_a(nT)$，求得 $h(n)$。
+2. 根据冲激响应不变准则，令 $h(n)=Th_a(nT)$，求得 $h(n)$。
 3. 对 $h(n)$ 进行 $z$ 变换，得到 $H(z)$。
 
 **约束条件**：
@@ -111,6 +119,12 @@ $$
 2. 根据 $\Omega=\frac 2 T \tan\frac{\omega}2=2 f_s \tan\frac{\omega}2$ 转换 DF 性能指标，得到 AF 性能指标 $\Omega_s, \Omega_p$；
 3. 根据 $\Omega_s, \Omega_p, A_p, A_s$ 设计模拟低通原型滤波器，得到 AF 的系统函数 $H_a(s)$；
 4. 根据双线性变换法，得到 DF 的系统函数 $H(z)$。
+
+**本章例题：** 
+
+![](files/第四章%204.4-4.6冲激响应不表-双线性变换(2)-1.pdf-48.jpg)
+
+![](files/第四章%204.4-4.6冲激响应不表-双线性变换(2)-1.pdf-49.jpg)
 
 ## IIR 数字滤波器的实现结构
 
