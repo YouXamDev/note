@@ -113,7 +113,7 @@ $$
 H(z) = H_a(s) \vert _{s = \frac{2}{T} \frac{1 - z^{-1}}{1 + z^{-1}}}
 $$
 
-#### 频率预畸变
+### 频率预畸变
 
 1. DF 的性能指标 $\omega_s, \omega_p, A_p, A_s$；
 2. 根据 $\Omega=\frac 2 T \tan\frac{\omega}2=2 f_s \tan\frac{\omega}2$ 转换 DF 性能指标，得到 AF 性能指标 $\Omega_s, \Omega_p$；
@@ -130,7 +130,7 @@ $$
 
 ### 直接型
 
-$$H(Z)=\frac{\sum_{i=0}^Ma_iz^{-i}}{1-\sum_{i-1}^Nb_i^{-i}}$$
+$$H(Z)=\frac{\sum_{i=0}^Ma_iz^{-i}}{1-\sum_{i-1}^Nb_iz^{-i}}$$
 
 **直接 1 型**：
 

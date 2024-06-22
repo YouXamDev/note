@@ -36,7 +36,7 @@
 ## 利用窗函数设计线性相位 FIR 数字滤波器的设计步骤
 
 1. 首先选择窗函数类型，选择最合适的窗函数（在满足阻带衰减的条件下选择主瓣宽度最小的窗函数）。然后求得窗口长度 $N$：
-2. 采用标准窗函数发构造期望逼近的 FIR 数字滤波器的频率响应函数 $H_d(e^{j \omega})$：
+2. 采用标准窗函数法构造期望逼近的 FIR 数字滤波器的频率响应函数 $H_d(e^{j \omega})$：
 	
 	$$H_d(e^{j \omega})=H_{da}(\omega)e^{-j\tau\omega}$$
 	
@@ -52,12 +52,12 @@
 
 可直接查表：
 
-|  类型  | 频率响应 $H_d(e^{j\omega})(r=\frac{N-1}{2})$                                                                      | 单位冲激响应 $h_d(n)=\frac{1}{2\pi}\int_{-\pi}^{\pi}H_d(e^{j\omega})e^{j\omega n}\mathbf{d}\omega$                                                    |
-| :--: | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 理想低通 | $$\begin{cases}e^{-j\tau\omega}&, \vert \omega \vert \le \omega_c \\ 0&,  \text{其他}\end{cases}$$              | $$\frac{\sin((n - \tau)\omega_c)}{(n - \tau)\pi}$$                                                                                              |
-| 理想高通 | $$\begin{cases}e^{-j\tau\omega}&, \omega_c \le \vert \omega \vert   \\ 0&,  \text{其他}\end{cases}$$            | $$\frac{\sin((n - \tau)\pi)}{(n - \tau)\pi} - \frac{\sin((n - \tau)\omega_c)}{(n - \tau)\pi}$$                                                  |
-| 理想带通 | $$\begin{cases}e^{-j\tau\omega}&, \omega_l \le \vert \omega \vert \le \omega_h \\ 0&,  \text{其他}\end{cases}$$ | $$\frac{\sin((n - \tau)\omega_h)}{(n - \tau)\pi} - \frac{\sin((n - \tau)\omega_l)}{(n - \tau)\pi}$$                                             |
-| 理想带阻 | $$\begin{cases}e^{-j\tau\omega}&,\omega_h \le \vert \omega \vert \le \omega_l \\ 0&,  \text{其他}\end{cases}$$  | $$\frac{\sin((n - \tau)\omega_l)}{(n - \tau)\pi} + \frac{\sin((n - \tau)\pi)}{(n - \tau)\pi} - \frac{\sin((n - \tau)\omega_h)}{(n - \tau)\pi}$$ |
+|  类型  | 频率响应 $H_d(e^{j\omega})(r=\frac{N-1}{2})$                                                                                        | 单位冲激响应 $h_d(n)=\frac{1}{2\pi}\int_{-\pi}^{\pi}H_d(e^{j\omega})e^{j\omega n}\mathbf{d}\omega$                                                    |
+| :--: | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 理想低通 | $$\begin{cases}e^{-j\tau\omega}&, \vert \omega \vert \le \omega_c \\ 0&,  \text{其他}\end{cases}$$                                | $$\frac{\sin((n - \tau)\omega_c)}{(n - \tau)\pi}$$                                                                                              |
+| 理想高通 | $$\begin{cases}e^{-j\tau\omega}&, \omega_c \le \vert \omega \vert   \\ 0&,  \text{其他}\end{cases}$$                              | $$\frac{\sin((n - \tau)\pi)}{(n - \tau)\pi} - \frac{\sin((n - \tau)\omega_c)}{(n - \tau)\pi}$$                                                  |
+| 理想带通 | $$\begin{cases}e^{-j\tau\omega}&, \omega_l \le \vert \omega \vert \le \omega_h \\ 0&,  \text{其他}\end{cases}$$                   | $$\frac{\sin((n - \tau)\omega_h)}{(n - \tau)\pi} - \frac{\sin((n - \tau)\omega_l)}{(n - \tau)\pi}$$                                             |
+| 理想带阻 | $$\begin{cases}e^{-j\tau\omega}&,\vert \omega \vert \le \omega_l, \omega_h\le \vert \omega \vert \\ 0&,  \text{其他}\end{cases}$$ | $$\frac{\sin((n - \tau)\omega_l)}{(n - \tau)\pi} + \frac{\sin((n - \tau)\pi)}{(n - \tau)\pi} - \frac{\sin((n - \tau)\omega_h)}{(n - \tau)\pi}$$ |
 
 
 ## 利用频率取样法设计线性相位 FIR 数字滤波器的设计步骤
