@@ -81,8 +81,8 @@
 	![](files/Pasted%20image%2020240622235156.png)
 	![](files/Pasted%20image%2020240622235259.png)
 1. DV 算法
-	![](files/Pasted%20image%2020240622235524.png)
-	![](files/Pasted%20image%2020240622235458.png)
+	![](files/Pasted%20image%2020240623152726.png)
+	
 
 ## 第六章
 
