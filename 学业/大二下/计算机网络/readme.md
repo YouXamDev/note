@@ -48,8 +48,7 @@
 ## 第三章
 
 1. 可靠性 RDT：复习题 [rdt2.2](https://gaia.cs.umass.edu/kurose_ross/interactive/rdt22.php), [rdt3.0](https://gaia.cs.umass.edu/kurose_ross/interactive/rdt30.php)
-2. 拥塞控制
-	1. **慢启动**：cwnd （Congestion Window）初始设置为 1，并以指数增长，直到达到阈值 ssthresh（Slow Start Threshold）开始进入拥塞避免阶段。若遇到超时，则 cwnd 重新设置为 1，ssthresh 重新设置为 cwnd / 2。若遇到三个冗余 ACK，TCP Reno 将 ssthresh 重新设置为 cwnd / 2，cwnd 重新设置为 ssthresh + 3（即 cwnd / 2 + 3），而 TCP Tahoe 和超时处理方式相同。
+2. 拥塞控制	1. **慢启动**：cwnd （Congestion Window）初始设置为 1，并以指数增长，直到达到阈值 ssthresh（Slow Start Threshold）开始进入拥塞避免阶段。若遇到超时，则 cwnd 重新设置为 1，ssthresh 重新设置为 cwnd / 2。若遇到三个冗余 ACK，TCP Reno 将 ssthresh 重新设置为 cwnd / 2，cwnd 重新设置为 ssthresh + 3（即 cwnd / 2 + 3），而 TCP Tahoe 和超时处理方式相同。
 	2. **拥塞避免**：每次增加 1，遇到超时和三个冗余 ACK 时，处理方式与慢启动相同。
 	3. **快速恢复**：接收到冗余 ACK 就将 cwnd 加 1，也就是 TCP Reno 中遇到三个冗余 ACK 要将 cwnd 设置为 cwnd / 2 + 3 的原因。
 
@@ -73,9 +72,12 @@
 
 ## 第六章
 
-1. 随机接入协议：ALOHA，CSMA
+1. 随机接入协议
+	1. **载波监听(CSMA)**：发送前先检测一下其它站点是否正在发送(即信道是否忙)，若信道空闲,是否可以立即发送? 立即发送 (1坚持的CSMA)。若信道忙,如何处理? 继续监听,等到信道空闲后立即发送。
+	2. **冲突检测(CD)**：边发送边检测是否有冲突，若不冲突,持续发送,直到发完，若冲突,停止发送。
 2. MAC 地址 hop-by-hop
-
+	![](files/Pasted%20image%2020240623150019.png)
+	![](files/Pasted%20image%2020240623150217.png)
 ## 第七章
 
 1. 无线和有线的区别
@@ -87,3 +89,47 @@
 1. 对称加密和非对称加密的区别
 
 ![](files/Pasted%20image%2020240622234724.png)
+
+## 一次Web请求的过程
+
+示例场景：在学校机房访问 www.baidu.com。
+
+### 第一步: 连接到因特网
+
+1. 笔记本电脑首先要获得上网参数: IP 地址、路由器地址、DNS 服务器的 IP 地址 （使用DHCP）
+	1. DHCP请求: 封装在UDP数据报 $\rightarrow$ IP包 $\rightarrow$ 以太网帧
+	2. 以太网帧在LAN上广播，目的 MAC地址为 FF-FF-FF-FF-FF-FF
+	3. 路由器(DHCP服务器)收到以太网帧, 解封: IP包 $\rightarrow$  UDP数据报$\rightarrow$  DHCP请求
+2. DHCP服务器返回 DHCP ACK,包含所请求的上网相关参数
+	1. DHCP服务器将DHCP ACK封装成帧,通过LAN交换机转发给笔记本电脑
+	2. 解封,DHCP客户端收到DHCP ACK
+3. 客户端获得 IP 地址, 获知子网掩码、路由器的 IP 地址、DNS服务器的 IP 地址
+
+### 第二步: ARP
+
+1. 发送HTTP请求之前,客户端需要获知www.baidu.com对应的IP地址（使用DNS）
+	1. 解析器产生DNS请求,封装: UDP数据报 $\rightarrow$  IP包 $\rightarrow$ 以太网帧
+2. 主机选路, 要把帧发送给路由器, 需要MAC地址 （使用 ARP）
+	1. 客户端广播 ARP 请求,路由器收到后发送ARP应答,包含自己接口网卡的 MAC 地址
+	2. 客户端获知路由器接口的 MAC 地址, 可以发送包含 DNS 请求的帧
+
+### 第三步: DNS
+
+1. 路由器收到包含 DNS 请求的 IP 包
+	1. 基于选路协议 (OSPF/RIP/BGP) 构造的路由表,路由器把IP包从校园网转发给ISP网络的DNS服务器
+2. 解封, DNS 服务器返回www.baidu.com对应的 IP 地址
+
+### 第四步: 建立TCP连接
+
+1. 要发送HTTP请求,客户端首先要与Web服务器建立TCP连接
+	1. 客户端向Web服务器发送SYN 报文段(第一次握手)
+	2. Web服务器返回 SYN+ACK (第二次握手)
+	3. 客户端发送ACK(第三次握手)
+	4. TCP连接建立
+
+### 第五步: HTTP请求/应答
+
+1. 浏览器在 TCP 连接上发送 HTTP 请求
+	1. 包含HTTP请求的IP包被转发给Web服务器
+	2. Web服务器返回包含网页数据的HTTP应答
+	3. 包含HTTP应答的IP包被转发给浏览器
