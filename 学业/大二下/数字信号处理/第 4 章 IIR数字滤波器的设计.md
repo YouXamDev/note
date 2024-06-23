@@ -20,6 +20,7 @@ $$
 	$$
 	N=\left\lceil \frac{\lg \left( \frac{10^{0.1 A_s}-1}{10^{0.1 A_p} - 1} \right)}{2 \lg \left(  \frac{\Omega_s}{\Omega_p} \right)} \right\rceil
 	$$
+    
     若查表，则先将频率归一化：
 
     $$\lambda_p = 1, \lambda_s = \frac{\Omega_s}{\Omega_p}$$
@@ -105,7 +106,7 @@ H_a(s) = \sum_{i=1}^N \frac{\color{red}A_i}{s - {\color{blue}s_i}}
 H(z) = {\color{red}T}\sum_{i=1}^N \frac{\color{red}A_i}{1 - e^{ {\color{blue}s_i} T} z^{-1}}
 $$
 
-ROC 为 $|z| > |e^{s_iT}|$
+ROC 为 $\vert z \vert > \vert e^{s_iT} \vert$
 
 ### 双线性变换法
 
