@@ -48,7 +48,8 @@
 ## 第三章
 
 1. 可靠性 RDT：复习题 [rdt2.2](https://gaia.cs.umass.edu/kurose_ross/interactive/rdt22.php), [rdt3.0](https://gaia.cs.umass.edu/kurose_ross/interactive/rdt30.php)
-2. 拥塞控制	1. **慢启动**：cwnd （Congestion Window）初始设置为 1，并以指数增长，直到达到阈值 ssthresh（Slow Start Threshold）开始进入拥塞避免阶段。若遇到超时，则 cwnd 重新设置为 1，ssthresh 重新设置为 cwnd / 2。若遇到三个冗余 ACK，TCP Reno 将 ssthresh 重新设置为 cwnd / 2，cwnd 重新设置为 ssthresh + 3（即 cwnd / 2 + 3），而 TCP Tahoe 和超时处理方式相同。
+2. 拥塞控制	
+	1. **慢启动**：cwnd （Congestion Window）初始设置为 1，并以指数增长，直到达到阈值 ssthresh（Slow Start Threshold）开始进入拥塞避免阶段。若遇到超时，则 cwnd 重新设置为 1，ssthresh 重新设置为 cwnd / 2。若遇到三个冗余 ACK，TCP Reno 将 ssthresh 重新设置为 cwnd / 2，cwnd 重新设置为 ssthresh + 3（即 cwnd / 2 + 3），而 TCP Tahoe 和超时处理方式相同。
 	2. **拥塞避免**：每次增加 1，遇到超时和三个冗余 ACK 时，处理方式与慢启动相同。
 	3. **快速恢复**：接收到冗余 ACK 就将 cwnd 加 1，也就是 TCP Reno 中遇到三个冗余 ACK 要将 cwnd 设置为 cwnd / 2 + 3 的原因。
 
