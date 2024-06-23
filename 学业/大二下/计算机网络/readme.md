@@ -57,10 +57,24 @@
 ## 第四章
 
 1. 子网划分
-2. 最长前缀路由
-3. 路由聚合
 
-[练习题](https://fileucloud.bupt.edu.cn/ucloud/document/76005d45c0d7d378bb662d5d09856cbe.pdf)
+	![](files/Pasted%20image%2020240623150411.png)
+	```
+	223.1.17.0/26
+	223.1.17.128/25
+	223.1.17.192/28
+	```
+
+1. 最长前缀路由
+	![](files/Pasted%20image%2020240623150327.png)
+	![](files/Pasted%20image%2020240623150359.png)![](files/Pasted%20image%2020240623150856.png)
+	![](files/Pasted%20image%2020240623150931.png)
+	![](files/Pasted%20image%2020240623150459.png)
+	![](files/Pasted%20image%2020240623150447.png)
+	![](files/Pasted%20image%2020240623150517.png)
+3. 路由聚合
+	![](files/Pasted%20image%2020240623151039.png)
+	![](files/Pasted%20image%2020240623151312.png)
 ## 第五章
 
 1. LS 算法
