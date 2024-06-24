@@ -69,7 +69,7 @@
 	$$H_d(k)=H_d(e^{j\omega}) \vert_{\omega=\frac{2\pi k}{N}}, \quad, k=0,\cdots,N-1$$
 2. 利用公式求出 $H(z)$ 的表达式：
 	
-	$$H(z)=\frac 1 N \sum_{k=0}^{N-1}H(k)\frac{1-z^{-N}}{1-W_N^{-k}z^{-1}}$$
+	$$H(z)=\frac 1 N \sum_{k=0}^{N-1}H_d(k)\frac{1-z^{-N}}{1-W_N^{-k}z^{-1}}$$
 3. 求出系统的频率响应 $H(e^{j\omega})$：
 	
 	$$H(e^{j\omega})=\sum_{k=0}^{N-1}H_d(k)\phi(\omega-\frac{2\pi}Nk)$$
