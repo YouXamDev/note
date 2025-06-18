@@ -239,7 +239,11 @@
         <a href="https://github.com/YouXam" target="_blank">YouXam</a>
         {% if site.github.repository_url %}
         |
-        <a href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch }}/{{ page.path }}" target="_blank">在 Github 中查看本页</a>
+        {% assign github_path = page.path %}
+        {% if page.path contains '.html' %}
+          {% assign github_path = page.path | replace: '.html', '.md' %}
+        {% endif %}
+        <a href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch }}/{{ github_path }}" target="_blank">在 Github 中查看本页</a>
         {% endif %}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"
