@@ -28,6 +28,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set GitHub URL
+        run: |
+          if grep -q '^github_url:' _config.yml; then
+            sed -i "s#^github_url:.*#github_url: https://github.com/${{ github.repository }}/blob/main#" _config.yml
+          else
+            echo "github_url: https://github.com/${{ github.repository }}/blob/main" >> _config.yml
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
