@@ -298,6 +298,10 @@
         document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('a[href*=".md"]').forEach(link => {
                 const url = new URL(link.href);
+                // 跳过 GitHub 链接
+                if (url.hostname === 'github.com') {
+                    return;
+                }
                 if (url.pathname.endsWith('/readme.md')) {
                     url.pathname = url.pathname.replace(/readme\.md$/, '');
                 } else {
