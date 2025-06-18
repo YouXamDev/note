@@ -234,11 +234,9 @@
         </svg>
     </button>
     <div class="footer">
-        &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        <br>
-        <a href="https://github.com/YouXam" target="_blank">Youxam</a>
-        <br>
-        <a href="{{ site.github_url }}/{{ page.path | uri_escape }}" target="_blank">在 GitHub 中查看本页</a>
+        &copy; {{ site.time | date: '%Y' }}. All rights reserved.<br>
+        <a href="https://github.com/YouXam" target="_blank">Youxam</a> |
+        <a href="{{ site.github_url }}/{{ page.path | replace: '.html', '.md' | uri_escape }}" target="_blank">在 GitHub 中查看本页</a>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"
         integrity="sha512-byAcNWVEzFfu+tZItctr+WIMUJvpzT2kokkqcBq+VsrM3OrC5Aj9E2gh+hHpU0XNA3wDmX4sDbV5/nkhvTrj4w=="
